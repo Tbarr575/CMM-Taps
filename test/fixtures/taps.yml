@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  grouping: MyString
+  floor: MyString
+  location: MyString
+  drink_id: 1
+
+two:
+  grouping: MyString
+  floor: MyString
+  location: MyString
+  drink_id: 1

@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Taps</h1>
+
+<div id="taps">
+  <% @taps.each do |tap| %>
+    <%= render tap %>
+    <p>
+      <%= link_to "Show this tap", tap %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New tap", new_tap_path %>

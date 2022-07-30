@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @tap %>
+
+<div>
+  <%= link_to "Edit this tap", edit_tap_path(@tap) %> |
+  <%= link_to "Back to taps", taps_path %>
+
+  <%= button_to "Destroy this tap", @tap, method: :delete %>
+</div>
